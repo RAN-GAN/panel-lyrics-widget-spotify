@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "RAN-GAN"
+            }
+        ],
+        "Category": "Multimedia",
+        "Description": "Shows synced lyrics for the currently playing song via MPRIS + LRCLIB",
+        "Icon": "audio-x-generic",
+        "Id": "com.example.panellyrics",
+        "License": "GPL-3.0-or-later",
+        "Name": "Plasma Panel Lyrics - Spotify",
+        "Version": "1.0.0",
+        "Website": "https://github.com/RAN-GAN/plasma-panel-lyrics",
+        "BugReportUrl": "https://github.com/RAN-GAN/plasma-panel-lyrics/issues"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

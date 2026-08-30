@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name="" />
+    <group name="General">
+        <entry name="fontSize" type="Int">
+            <label>Lyric text font size in points. -1 uses the panel's default size.</label>
+            <default>-1</default>
+        </entry>
+        <entry name="widgetWidth" type="Int">
+            <label>Maximum width in pixels of the panel label before eliding.</label>
+            <default>300</default>
+        </entry>
+        <entry name="textAlignment" type="String">
+            <label>Text alignment: left, center or right.</label>
+            <default>left</default>
+        </entry>
+        <entry name="showLyrics" type="Bool">
+            <label>Show synced lyrics in the panel. When off, only the song name is shown and lyrics aren't fetched.</label>
+            <default>true</default>
+        </entry>
+    </group>
+</kcfg>
