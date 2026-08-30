@@ -42,9 +42,9 @@ no backend, no server, just MPRIS + the [LRCLIB](https://lrclib.net) API.
 ## Installation
 
 ```sh
-git clone https://github.com/RAN-GAN/plasma-panel-lyrics.git
-cd plasma-panel-lyrics
-kpackagetool6 --type Plasma/Applet --install com.example.panellyrics
+git clone https://github.com/RAN-GAN/panel-lyrics-widget-spotify.git
+cd panel-lyrics-widget-spotify
+kpackagetool6 --type Plasma/Applet --install com.ran-gan.panellyrics
 ```
 
 Then right-click your panel → **Add or Manage Widgets…** and add **Plasma
@@ -53,7 +53,7 @@ Panel Lyrics - Spotify**.
 To pick up an update after pulling new changes:
 
 ```sh
-kpackagetool6 --type Plasma/Applet --upgrade com.example.panellyrics
+kpackagetool6 --type Plasma/Applet --upgrade com.ran-gan.panellyrics
 ```
 
 You may need to log out and back in (or restart `plasmashell`) for KDE to
@@ -84,7 +84,7 @@ Plasma-private QML module, so it stays stable across Plasma versions.
 ## Project structure
 
 ```
-com.example.panellyrics/
+com.ran-gan.panellyrics/
 ├── metadata.json
 └── contents/
     ├── ui/
